@@ -29,7 +29,7 @@
 # email address for notifications
 
 
-### ENVIRONMENT
+#This is module needed for Run Code
 # load STAR module
 module load STAR
 
@@ -37,7 +37,7 @@ module load STAR
 module list
 
 
-### EXECUTION
+# CODE RUN
 # run STAR for paired-end read alignment
 # use pre-built genome index
 # use 16 threads
