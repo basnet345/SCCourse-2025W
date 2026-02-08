@@ -28,16 +28,12 @@
 #SBATCH --mail-user=a12448596@unet.univie.ac.at
 # email address for notifications
 
-
-### ENVIRONMENT
 # load Subread module
 module load Subread
 
 # show loaded modules in log
 module list
 
-
-### VARIABLES
 # annotation file in GTF format
 gtfFile="/lisc/data/scratch/course/2025w300106/basnet/test.gtf"
 
@@ -45,7 +41,7 @@ gtfFile="/lisc/data/scratch/course/2025w300106/basnet/test.gtf"
 bamFile="/lisc/data/scratch/course/2025w300106/basnet/results/map/SRR33559393_Nem_filtered.bam"
 
 
-### EXECUTION
+# Final code here to Run
 # run featureCounts to count reads
 # use -p for paired-end reads and count one fragment per template
 # count only primary alignments
