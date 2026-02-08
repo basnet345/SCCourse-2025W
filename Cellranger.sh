@@ -29,7 +29,6 @@
 # email address for notifications
 
 
-### ENVIRONMENT
 # load CellRanger module
 module load CellRanger
 
@@ -37,7 +36,7 @@ module load CellRanger
 module list
 
 
-### VARIABLES
+# VARIABLES
 # base project directory
 path="/lisc/data/scratch/course/2025w300106"
 
@@ -57,7 +56,6 @@ outDir="${path}/basnet/results/cellranger"
 id="blastula_12h"
 
 
-### EXECUTION
 # print start time
 echo "Started job at $(date)"
 
