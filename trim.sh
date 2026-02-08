@@ -28,24 +28,18 @@
 #SBATCH --mail-user=a12448596@unet.univie.ac.at
 # email address for notifications
 
-
-### ENVIRONMENT
 # load Trimmomatic module
 module load Trimmomatic
 
 # show loaded modules in log
 module list
 
-
-### VARIABLES
 # base working directory
 wd="/lisc/data/scratch/course/2025w300106/basnet"
 
 # output directory for trimmed reads
 outDir="$wd/results/trimmomatic"
 
-
-### EXECUTION
 # print start time
 echo "Started job at $(date)"
 
