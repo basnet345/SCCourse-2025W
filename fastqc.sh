@@ -28,13 +28,8 @@
 #SBATCH --mail-user=a12448596@unet.univie.ac.at
 # email address for notifications
 
-
-### ENVIRONMENT
 # load FASTQC module
 module load FASTQC
-
-
-### VARIABLES
 # output directory for FastQC results
 outDir="/lisc/data/scratch/course/2025w300106/basnet/results/fastqc"
 
