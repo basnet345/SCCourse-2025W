@@ -29,23 +29,17 @@
 # email address for notifications
 
 
-### ENVIRONMENT
 # load eggNOG-mapper module
 module load eggnogmapper/2.1.13-foss-2024a
 
 # show loaded modules in log
 module list
-
-
-### VARIABLES
 # base directory of the project
 path="/lisc/data/scratch/course/2025w300106/basnet"
 
 # directory for eggNOG-mapper output
 outDir="${path}/results/emapper_results"
 
-
-### EXECUTION
 # print start time
 echo "Started job at $(date)"
 
