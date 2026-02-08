@@ -16,5 +16,5 @@ with open(output_file, "w") as out_handle:
             #write filtered sequence to output FASTA file
             SeqIO.write(record, out_handle, "fasta")
 
-#print message after filtering is done
+#print message after filtering is done if everthing is go Right I got Output file
 print(f"Filtered sequences written to {output_file}")
