@@ -28,21 +28,18 @@
 #SBATCH --mail-user=a12448596@unet.univie.ac.at
 # email address for notifications
 
-### ENVIRONMENT
 # load Subread module
 module load Subread
 
 # show loaded modules in log
 module list
 
-### VARIABLES
-# filtered GTF file from StringTie results
+# filtered GTF file from StringTie results this is path where i store
 gtfFile="/lisc/data/scratch/course/2025w300106/basnet/results/StringTie/Filtered_gene_models.gtf"
 
 # BAM file with filtered aligned reads
 bamFile="/lisc/data/scratch/course/2025w300106/basnet/results/map/SRR33559393_Nem_filtered.bam"
 
-### EXECUTION
 # run featureCounts using filtered gene models
 # minor change to use filtered GTF instead of original
 featureCounts -p --countReadPairs -C -T 4 -s 2 --primary \
