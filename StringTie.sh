@@ -27,17 +27,12 @@
 
 #SBATCH --mail-user=a12448596@unet.univie.ac.at
 # email address for notifications
-
-
-### ENVIRONMENT
 # load StringTie module
 module load StringTie
 
 # show loaded modules in log
 module list
 
-
-### VARIABLES
 # base directory of the project
 path="/lisc/data/scratch/course/2025w300106/basnet"
 
@@ -47,8 +42,6 @@ inBam="$path/results/map/SRR33559393_Nem_Aligned.sortedByCoord.out.bam"
 # output directory for StringTie results
 outDir="$path/results/StringTie"
 
-
-### EXECUTION
 # print start time
 echo "Started job at $(date)"
 
